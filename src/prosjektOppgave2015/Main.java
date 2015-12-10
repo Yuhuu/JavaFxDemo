@@ -16,15 +16,7 @@ public class Main extends Application {
 	public static void main(String[] args) {
 		launch(args);
 	}
-	
-	/*The javafx.application.Application class is abstract as it contains many application life 
-	 * cycle functions such as initializing, launching, starting and stopping. The main() method 
-	 * launches the javafx application by passing in the command-line arguments to the launch() method.
-	 * After executing the launch() method. the javafx application will enter a ready state, 
-	 * then the start() method is the main entry point for all javafx applications. After invoking the
-	 *  start() method, the program runs in the JavaFX thread instead of main
-	 * 
-	*/
+
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
